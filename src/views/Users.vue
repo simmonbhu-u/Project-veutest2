@@ -11,6 +11,7 @@
             <th>Name</th>
             <th>Email</th>
             <th>City</th>
+            <th>Street</th>
     
           </tr>
         </thead>
@@ -22,7 +23,6 @@
             <td>{{ user.email }}</td> 
             <td>{{ user.address.city}}</td>
             <td>{{ user.address.street}}</td>
-
           </tr>
         </tbody>
       </table>
